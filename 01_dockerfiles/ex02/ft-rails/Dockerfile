@@ -16,7 +16,7 @@ ONBUILD RUN rails db:migrate
 ONBUILD RUN rails db:seed
 
 # build ft-rails
-# docker build --tag ft-rails:on-build ./ft_rails
+# docker build --tag ft-rails:on-build .
 
 #build it 
 #docker build --tag ex02 ./
